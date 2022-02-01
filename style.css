@@ -1,0 +1,61 @@
+*{
+    font-family: 'Titillium Web', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(99, 99, 93);
+    color: #fff;
+}
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logo{
+    width: 500px;
+    margin-bottom: 4rem;
+}
+
+.container input{
+    width: 600px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    margin: 15px 15px;
+    outline: none;
+}
+
+.container button{
+    background: rgb(201, 22, 22);
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 120%;
+}
+
+.result{
+    display: grid;
+    margin: 5px
+}
+
+.result a{
+    color: rgb(145, 255, 0);
+}
+
+.pokemon-result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
